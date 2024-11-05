@@ -4,7 +4,7 @@ let max_nat : int -> int -> int =
       then if (a >= b) 
         then a
         else b
-  else 0 ;;
+  else failwith("i numeri devono essere naturali") ;;
 
 
 assert(max_nat 2 5 = 5);;
