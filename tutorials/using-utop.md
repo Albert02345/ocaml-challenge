@@ -192,7 +192,7 @@ This writes correct OCaml code for the expressions that were successfully evalua
 To load in the contents of the OCaml `foo.ml` without leaving utop:
 
 ```
-#use "foo.ml"
+#use "foo.ml" 
 ```
 
 This will compile the file and add its definitions to the context.
